@@ -24,4 +24,4 @@ WHERE last_name LIKE '%q%';
 SELECT emp_no, first_name, last_name
 FROM employees.employees
 WHERE last_name LIKE '%q%'
-and last_name NOT LIKE '%qu%'
+and last_name NOT LIKE '%qu%';
